@@ -3,6 +3,7 @@ name = "tokio-clap-cli"
 description = "Example CLI using tokio and clap"
 version = "0.1.0"
 edition = "2021"
+license = "MPL-2.0"
 
 [lib]
 name = "tokio_clap_cli"
