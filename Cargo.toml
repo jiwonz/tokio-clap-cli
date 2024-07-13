@@ -1,0 +1,18 @@
+[package]
+name = "tokio-clap-cli"
+description = "Example CLI using tokio and clap"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "tokio_clap_cli"
+path = "src/lib.rs"
+
+[[bin]]
+name = "tokio_clap_cli"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0.86"
+clap = { version = "4.5.9", features = ["derive"] }
+tokio = { version = "1.38.0", features = ["full"] }
